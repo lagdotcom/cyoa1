@@ -1,0 +1,31 @@
+{
+  "name": "cyoa1",
+  "version": "1.0.0",
+  "description": "My first attempt at a CYOA book.",
+  "author": "Lag.Com <lagdotcom@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/watch.mjs",
+    "start": "node scripts/watch.mjs",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "gameanalytics": "^4.4.7",
+    "inkjs": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "esbuild": "^0.20.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
